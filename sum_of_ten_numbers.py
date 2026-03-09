@@ -1,5 +1,6 @@
-sum = 0
-for i in range (10) :
-    sum += float(input(f"Enter number {i+1}: "))
+total = 0
 
-print(f"{sum}")
+for i in range (10) :
+    total += float(input(f"Enter number {i+1}: "))
+
+print(f"{total}")
