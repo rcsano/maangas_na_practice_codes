@@ -1,3 +1,4 @@
-for i in range (0, 100):
-    if i % 2 != 0:
-        print(i)
+odd_num = 1
+while odd_num <= 100:
+    print(odd_num)
+    odd_num += 2
