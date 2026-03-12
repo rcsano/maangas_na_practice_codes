@@ -1,12 +1,13 @@
 # Empty list
 numbers = []
+
 # Loop
 while True:
     try:
     # Enter number
         num = float(input("Enter a number: "))
-    except:
     # Stop if invalid
+    except ValueError:
         break
 
 # Check if number exists on list
