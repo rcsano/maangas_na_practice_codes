@@ -1,4 +1,4 @@
-full_name = input("Enter your name: ")
+full_name = input("Enter your full name: ")
 words = full_name.split()
 result = " "
 
