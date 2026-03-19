@@ -1,2 +1,2 @@
 text = input("Enter string: ")
-print(any("A" <= c <= "Z" for c in text) and not any("a" <= c <= "z" for c in text))
+print(any("A" <= character <= "Z" for character in text) and not any("a" <= character <= "z" for character in text))
